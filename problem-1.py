@@ -7,7 +7,7 @@
 #  a attacking queen should be checked in three directions.
 # one by checking the rows previous to current position with the same column
 # two by decrementing row and col from present location ( diagonal).
-# three by incrementing row and col from present location ( diagonal)
+# three by incrementing col and decrementing row from present location ( diagonal)
 # we mark true initially if a queen suits the location else make it false
 # through backtracking we find all possible locations of the queen in the grid
 
